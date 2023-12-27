@@ -45,15 +45,15 @@
   max-width: 640px;
   background-image: radial-gradient(
       at 27% 37%,
-      hsla(215, 98%, 61%, 1) 0px,
+      rgb(6, 107, 248) 0px,
       transparent 0%
     ),
-    radial-gradient(at 97% 21%, hsla(125, 98%, 72%, 1) 0px, transparent 50%),
-    radial-gradient(at 52% 99%, hsla(354, 98%, 61%, 1) 0px, transparent 50%),
+    radial-gradient(at 97% 21%, rgb(12, 245, 32) 0px, transparent 50%),
+    radial-gradient(at 52% 99%, rgb(143, 245, 10) 0px, transparent 50%),
     radial-gradient(at 10% 29%, hsla(256, 96%, 67%, 1) 0px, transparent 50%),
     radial-gradient(at 97% 96%, hsla(38, 60%, 74%, 1) 0px, transparent 50%),
-    radial-gradient(at 33% 50%, hsla(222, 67%, 73%, 1) 0px, transparent 50%),
-    radial-gradient(at 79% 53%, hsla(343, 68%, 79%, 1) 0px, transparent 50%);
+    radial-gradient(at 33% 50%, rgb(7, 78, 241) 0px, transparent 50%),
+    radial-gradient(at 79% 53%, rgb(241, 12, 77) 0px, transparent 50%);
   position: absolute;
   content: "";
   width: 100%;
@@ -83,8 +83,8 @@
   @apply mt-5 text-5xl font-extrabold leading-[1.15] text-black sm:text-6xl text-center;
 }
 
-.orange_gradient {
-  @apply bg-gradient-to-r from-amber-500 via-orange-600 to-yellow-500 bg-clip-text text-transparent;
+.blue_gradient {
+  @apply bg-gradient-to-r from-blue-400 via-blue-400 to-blue-500 bg-clip-text text-transparent;
 }
 
 .desc {
