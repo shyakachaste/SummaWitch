@@ -28,8 +28,11 @@ Welcome to Summa witch ! Summa witch is designed to simplify the process of summ
 ```bash
 git clone https://github.com/shyakachaste/SummaWitch.git
 ```
+**Installing Dependencies**
+```bash
+npm install
+```
 **Running the Project**
-
 ```bash
 npm run dev
 ```
